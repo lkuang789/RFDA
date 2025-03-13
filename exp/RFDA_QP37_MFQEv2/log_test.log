@@ -1,0 +1,27 @@
+<<<<<<<<<< Test >>>>>>>>>>
+Timestamp: [20250313_181609]
+
+<<<<<<<<<< Options >>>>>>>>>>
+restore_iter: 25000
+pbar_len: 100
+checkpoint_save_path: exp/RFDA_QP37_MFQEv2/ckp_25000.pt
+criterion:[
+  type: PSNR
+  unit: dB
+  ]
+
+loading model exp/RFDA_QP37_MFQEv2/ckp_25000.pt...
+> model /data/lk/code/RFDA/exp/RFDA_QP37_MFQEv2/RFDA_QP37.pt loaded.
+
+<<<<<<<<<< Results >>>>>>>>>>
+> ori: [nan] dB
+> ave: [nan] dB
+> delta: [nan] dB
+SSIM:
+> ori: [nan] dB
+> ave: [nan] dB
+> delta: [nan] dB
+TOTAL TIME: [0.0] h
+
+<<<<<<<<<< Goodbye >>>>>>>>>>
+Timestamp: [20250313_181609]

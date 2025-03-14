@@ -10,7 +10,7 @@ from tqdm import tqdm
 
 import utils  # my tool box
 import dataset
-from Network import Net
+from net_rfda import RFDA
 from pytorch_msssim import ssim, ms_ssim  # Import functional SSIM and MS-SSIM
 import lpips
 
@@ -122,7 +122,7 @@ def main():
     # create & load model
     # ==========
 
-    model = Net(opts_dict=opts_dict['network'])
+    model = RFDA(opts_dict=opts_dict['network'])
 
     checkpoint_save_path = opts_dict['test']['checkpoint_save_path']
     msg = f'loading model {checkpoint_save_path}...'
